@@ -24,7 +24,7 @@ namespace Task_Collection
         {
             for (int i = 0; i < array.Length; i++)
             {
-                if (collection.Contains(array[i]) == false)
+                if (collection.Contains(array[i]) == false) // смотрит в коллекции есть значение или нет / если нет добавляет 
                 {
                     collection.Add(array[i]);
                 }
